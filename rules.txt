@@ -1,0 +1,40 @@
+compat(X,Y) :- comp(X,Y)
+
+compat(X,Y) :- cat(X,"pde") & cat(Y,"pde")
+compat(X,Y) :- cat(X,"pde") & cat(Y,"per")
+compat(X,Y) :- cat(X,"pde") & cat(Y,"wc")
+compat(X,Y) :- cat(X,"pde") & cat(Y,"sc")
+
+compat(X,Y) :- cat(X,"per") & cat(Y,"per") & ~morereq(X,Y)
+compat(X,Y) :- cat(X,"per") & cat(Y,"wc") & ~morereq(X,Y)
+compat(X,Y) :- cat(X,"per") & cat(Y,"sc") & ~morereq(X,Y)
+compat(X,Y) :- cat(X,"per") & cat(Y,"per") & gc(X)
+compat(X,Y) :- cat(X,"per") & cat(Y,"wc") & gc(X)
+compat(X,Y) :- cat(X,"per") & cat(Y,"sc") & gc(X)
+
+compat(X,Y) :- cat(X,"wc") & cat(Y,"wc") & ~morereq(X,Y)
+compat(X,Y) :- cat(X,"wc") & cat(Y,"sc") & ~morereq(X,Y)
+compat(X,Y) :- cat(X,"wc") & cat(Y,"wc") & gc(X)
+compat(X,Y) :- cat(X,"wc") & cat(Y,"sc") & gc(X)
+
+morereq(X,Y) :- addreq(X,"pg") & ~addreq(Y,"pg")
+morereq(X,Y) :- addreq(X,"tp") & ~addreq(Y,"tp")
+morereq(X,Y) :- addreq(X,"ac") & ~addreq(Y,"ac")
+morereq(X,Y) :- addreq(X,"at") & ~addreq(Y,"at")
+morereq(X,Y) :- addreq(X,"fl") & ~addreq(Y,"fl")
+morereq(X,Y) :- addreq(X,"ab") & ~addreq(Y,"ab")
+morereq(X,Y) :- addreq(X,"fl") & ~addreq(Y,"fl")
+morereq(X,Y) :- addreq(X,"cl") & ~addreq(Y,"cl")
+morereq(X,Y) :- addreq(X,"clny") & ~addreq(Y,"clny")
+morereq(X,Y) :- addreq(X,"clwa") & ~addreq(Y,"clwa")
+morereq(X,Y) :- addreq(X,"cc")
+
+
+
+
+
+
+
+
+
+
