@@ -16,6 +16,8 @@ with open("./licenses.yml") as file:
         if "comp" in lic.keys():
             for c in lic["comp"]:
                 rels.append("comp(\"{}\",\"{}\")\n".format(l, c))
+        if "gc" in lic.keys():
+            rels.append("gc(\"{}\")\n".format(l))
 
 with open("relations.txt","w") as out:
     out.writelines(rels)
