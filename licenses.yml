@@ -1,0 +1,235 @@
+Apache 2.0:
+  cat: per
+  addreq:
+    - pg
+GPLv3:
+  cat: sc
+  addreq:
+    - pg
+    - at
+    - ab
+  comp:
+    - AGPLv3
+GPLv2:
+  cat: sc
+GPLv2+:
+  cat: sc
+  comp:
+    - GPLv3
+AGPLv3:
+  cat: sc
+  addreq:
+    - pg
+    - at
+    - ab
+    - nw
+  comp:
+    - GPLv3
+EUPL 1.2:
+  cat: sc
+  addreq:
+    - pg
+  comp:
+    - GPLv3
+    - GPLv2
+    - OSL
+    - EPLv1
+    - MPL 2.0
+    - LGPLv2.1
+    - LGPLv3
+    - AGPLv3
+    - CeCILLv2
+EUPL 1.0:
+  cat: sc
+  addreq:
+    - pg
+  comp:
+    - GPLv2
+    - OSL
+    - EPLv1
+    - CeCILLv2
+LGPLv2.1:
+  cat: wc
+LGPLv3:
+  cat: wc
+  addreq:
+    - at
+MPL 2.0:
+  cat: wc
+  addreq:
+    - pg
+    - tp
+    - fl
+  gc: true
+MIT:
+  cat: per
+GNU AP:
+  cat: per
+Artistic 2.0:
+  cat: wc
+  gc: true
+  addreq:
+    - tp
+Artistic 1.0:
+  cat: per
+Boost:
+  cat: per
+BSD 3-Clause:
+  cat: per
+CeCILLv2:
+  cat: sc
+  comp:
+    - GPLv3
+    - GPLv2
+Clear BSD:
+  cat: per
+Cryptix:
+  cat: per
+eCos 2.0:
+  cat: wc
+ECL 2.0:
+  cat: per
+  addreq:
+    - pg
+Eiffel 2:
+  cat: per
+EU DataGrid:
+  cat: per
+BSD 2-Clause:
+  cat: per
+Freetype:
+  cat: per
+  addreq:
+    - ab
+HPND:
+  cat: per
+Beerware:
+  cat: pde
+Unlicense:
+  cat: pde
+CC0:
+  cat: pde
+WTFPL:
+  cat: pde
+BSD 0-Clause:
+  cat: pde
+Intel OSL:
+  cat: per
+ISC:
+  cat: per
+NCSA:
+  cat: per
+OpenLDAP:
+  cat: per
+SGI Free B:
+  cat: per
+Standard ML of New Jersey:
+  cat: per
+UPL:
+  cat: per
+  addreq:
+    - pg
+Zope 2:
+  cat: per
+AGPLv1:
+  cat: sc
+  addreq:
+    - nw
+AFL 3:
+  cat: per
+  addreq:
+    - cc
+Apache 1.0:
+  cat: per
+  addreq:
+    - ac
+    - tp
+Apache 1.1:
+  cat: per
+  addreq:
+    - tp
+Apple PSL:
+  cat: wc
+  addreq:
+    - pp
+    - tp
+    - nw
+BSD 4-Clause:
+  cat: per
+  addreq:
+    - ac
+CeCILL-B:
+  cat: sc
+  addreq:
+    - ab
+CDDL:
+  cat: wc
+  addreq:
+    - fl
+    - tp
+    - pp
+CPL:
+  cat: wc
+  addreq:
+    - fl
+    - clny
+EUPL 1.1:
+  cat: sc
+  comp:
+    - GPLv2
+    - CeCILLv2
+IBM PL:
+  cat: wc
+  addreq:
+    - pg
+    - clny
+Microsoft PL:
+  cat: sc
+  addreq:
+    - pg
+    - tp
+Microsoft RL:
+  cat: sc
+  addreq:
+  - pg
+  - tp
+MPL 1.1:
+  cat: wc
+  addreq:
+    - fl
+    - tp
+    - pp
+Netizen OSL:
+  cat: wc
+  addreq:
+    - fl
+    - tp
+    - pp
+QPL:
+  cat: per
+  addreq:
+    - po
+RealNetworks PSL:
+  cat: sc
+  addreq:
+    - clwa
+Zope PL:
+  cat: per
+  addreq:
+    - ac
+EPLv1:
+  cat: wc
+  addreq:
+    - fl
+    - clny
+EPLv2:
+  cat: wc
+  addreq:
+    - fl
+    - clny
+OSL:
+  cat: sc
+  addreq:
+    - nw
+    - al
+    - pp
