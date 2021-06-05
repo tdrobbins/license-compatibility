@@ -1,5 +1,6 @@
+# this files generates facts for epilog from the license properties in the 'licenses.yml'
 import yaml
-
+ 
 facts = []
 
 with open("./licenses.yml") as file:
